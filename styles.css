@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/717nBZmYYvL.jpg');
+    background-size: cover;
+    /* or 'contain' depending on your preference */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* This ensures that the background image stays fixed while scrolling */
+
+
+}
+
+header,
+nav,
+section,
+footer {
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+#contactForm {
+    max-width: 400px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+fieldset {
+    display: flex;
+    align-items: flex-start;
+}
